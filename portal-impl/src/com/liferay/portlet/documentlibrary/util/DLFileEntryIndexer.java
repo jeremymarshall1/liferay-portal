@@ -342,7 +342,7 @@ public class DLFileEntryIndexer extends BaseIndexer {
 
 		boolean indexContent = true;
 
-		if (dlFileEntry.getSize() > PropsValues.DL_FILE_INDEXING_MAX_SIZE){
+		if (dlFileEntry.getSize() > PropsValues.DL_FILE_INDEXING_MAX_SIZE) {
 			indexContent = false;
 		}
 
